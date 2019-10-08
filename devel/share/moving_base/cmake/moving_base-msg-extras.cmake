@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/moving_base/share/moving_base/cmake/moving_base-msg-extras.cmake

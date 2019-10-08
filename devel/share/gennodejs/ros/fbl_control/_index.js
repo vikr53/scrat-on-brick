@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/fbl_control/share/gennodejs/ros/fbl_control/_index.js

@@ -1,0 +1,63 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _fbl_control_generate_messages_check_deps_setpt_msg
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _fbl_control_generate_messages_check_deps_plant_msg
+[  0%] Built target _fbl_control_generate_messages_check_deps_controller_msg
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 13%] Built target fbl_control_generate_messages_cpp
+[ 30%] Built target fbl_control_generate_messages_eus
+[ 47%] Built target fbl_control_generate_messages_py
+[ 60%] Built target fbl_control_generate_messages_nodejs
+[ 73%] Built target fbl_control_generate_messages_lisp
+[35m[1mScanning dependencies of target controller[0m
+[ 82%] Built target setpt_gen
+[35m[1mScanning dependencies of target swerve_steer_plant[0m
+[ 82%] Built target fbl_control_generate_messages
+[ 86%] [32mBuilding CXX object CMakeFiles/swerve_steer_plant.dir/src/swerve_steer_plant.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/controller.h:7[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:7[m[K:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const plant_msg&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:58:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     ROS_INFO("I heard x: %f %f", msg.x[0]);
+[01;32m[K     ^[m[K
+[ 95%] [32m[1mLinking CXX executable /home/vik/controller_ws/devel/.private/fbl_control/lib/fbl_control/swerve_steer_plant[0m
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[0][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:46:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[1][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                              ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[2][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                            ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:74:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[3][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                                                                                                           ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e2[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e3[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:201:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e4[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+[ 95%] Built target swerve_steer_plant
+[100%] [32m[1mLinking CXX executable /home/vik/controller_ws/devel/.private/fbl_control/lib/fbl_control/controller[0m
+[100%] Built target controller

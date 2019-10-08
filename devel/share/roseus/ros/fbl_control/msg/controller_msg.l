@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/fbl_control/share/roseus/ros/fbl_control/msg/controller_msg.l

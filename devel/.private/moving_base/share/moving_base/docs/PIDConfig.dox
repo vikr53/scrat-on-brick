@@ -1,0 +1,9 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~p_gain" : \b [double] Proportional Gain min: 10.0, default: 1.0, max: std::numeric_limits<double>::infinity()
+- \b "~i_gain" : \b [double] Integral Gain min: 0.0, default: 0.0, max: 10.0
+- \b "~d_gain" : \b [double] Derivative Gain min: 0.0, default: 0.0, max: 10.0
+- \b "~speed_cap" : \b [double] Plane Radius Tolerance min: 0.0, default: 0.25, max: 0.5
+

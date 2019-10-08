@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/moving_base/share/roseus/ros/moving_base/msg/motordesc.l

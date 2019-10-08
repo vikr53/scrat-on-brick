@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/lyap_control/share/roseus/ros/lyap_control/manifest.l

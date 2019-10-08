@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/lyap_control/share/lyap_control/cmake/lyap_control-msg-extras.cmake

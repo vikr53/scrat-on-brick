@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/moving_base/lib/python2.7/dist-packages/moving_base/msg/__init__.py

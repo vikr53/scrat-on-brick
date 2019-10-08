@@ -1,0 +1,1 @@
+/home/vik/controller_ws/devel/.private/moving_base/lib/pkgconfig/moving_base.pc

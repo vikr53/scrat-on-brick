@@ -1,0 +1,17 @@
+[  7%] [34m[1mGenerating dynamic reconfigure files from cfg/pid.cfg: /home/vik/controller_ws/devel/.private/moving_base/include/moving_base/pidConfig.h /home/vik/controller_ws/devel/.private/moving_base/lib/python2.7/dist-packages/moving_base/cfg/pidConfig.py[0m
+[  7%] Built target std_msgs_generate_messages_eus
+[  7%] Built target std_msgs_generate_messages_lisp
+[  7%] Built target std_msgs_generate_messages_cpp
+[  7%] Built target std_msgs_generate_messages_nodejs
+[  7%] Built target _moving_base_generate_messages_check_deps_arduino_status
+[  7%] Built target std_msgs_generate_messages_py
+[  7%] Built target _moving_base_generate_messages_check_deps_motordesc
+Generating reconfiguration files for PID in moving_base
+Wrote header file in /home/vik/controller_ws/devel/.private/moving_base/include/moving_base/PIDConfig.h
+[ 53%] Built target moving_base_generate_messages_py
+[ 53%] Built target moving_base_generate_messages_eus
+[ 69%] Built target moving_base_generate_messages_cpp
+[ 84%] Built target moving_base_generate_messages_lisp
+[100%] Built target moving_base_generate_messages_nodejs
+[100%] Built target moving_base_gencfg
+[100%] Built target moving_base_generate_messages

@@ -1,0 +1,142 @@
+In file included from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:5:0[m[K:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/swerve_steer_plant.h:38:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpt_msg[m[K’ in namespace ‘[01m[Kfbl_control[m[K’ does not name a type
+ void setptCallback(const fbl_control::setpt_msg& setpt_msg);
+[01;32m[K                                       ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:91:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpt_msg[m[K’ in namespace ‘[01m[Kfbl_control[m[K’ does not name a type
+ void setptCallback(const fbl_control::setpt_msg& setpt_msg)
+[01;32m[K                                       ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:[m[K In function ‘[01m[Kvoid setptCallback(const int&)[m[K’:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:96:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksetx[m[K’ in ‘[01m[Ksetpt_msg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   setpt[0] = setpt_msg.setx[0];
+[01;32m[K                        ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:97:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksetx[m[K’ in ‘[01m[Ksetpt_msg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   setpt[1] = setpt_msg.setx[1];
+[01;32m[K                        ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:98:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksetx[m[K’ in ‘[01m[Ksetpt_msg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   setpt[2] = setpt_msg.setx[2];
+[01;32m[K                        ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_d[m[K’ was not declared in this scope
+     x_d = 1 * cos(t);
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_d[m[K’ was not declared in this scope
+     y_d = 1 * sin(t);
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_d[m[K’ was not declared in this scope
+     theta_d = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvx_d[m[K’ was not declared in this scope
+     vx_d = -1 * sin(t);
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvy_d[m[K’ was not declared in this scope
+     vy_d = 1 * cos(t);
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kw_d[m[K’ was not declared in this scope
+     w_d = 0;
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:[m[K In lambda function:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:34:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Ksetpt_pub[m[K’
+      setpt_pub.publish(msg);
+[01;32m[K      ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:32:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kfbl_control::setpt_msg {aka fbl_control::setpt_msg_<std::allocator<void> >}[m[K’ and ‘[01m[Kmain(int, char**)::<lambda()>[m[K’)
+     msg = [x_d, y_d, theta_d, vx_d, vy_d, w_d]
+[01;32m[K         ^[m[K
+In file included from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/setpt_gen.h:5:0[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/setpt_gen.cpp:1[m[K:
+[01m[K/home/vik/controller_ws/devel/.private/fbl_control/include/fbl_control/setpt_msg.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr fbl_control::setpt_msg_<std::allocator<void> >& fbl_control::setpt_msg_<std::allocator<void> >::operator=(const fbl_control::setpt_msg_<std::allocator<void> >&)
+ struct setpt_msg_
+[01;32m[K        ^[m[K
+[01m[K/home/vik/controller_ws/devel/.private/fbl_control/include/fbl_control/setpt_msg.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to ‘[01m[Kconst fbl_control::setpt_msg_<std::allocator<void> >&[m[K’
+[01m[K/home/vik/controller_ws/devel/.private/fbl_control/include/fbl_control/setpt_msg.h:22:8:[m[K [01;36m[Knote: [m[Kcandidate: constexpr fbl_control::setpt_msg_<std::allocator<void> >& fbl_control::setpt_msg_<std::allocator<void> >::operator=(fbl_control::setpt_msg_<std::allocator<void> >&&)
+[01m[K/home/vik/controller_ws/devel/.private/fbl_control/include/fbl_control/setpt_msg.h:22:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmain(int, char**)::<lambda()>[m[K’ to ‘[01m[Kfbl_control::setpt_msg_<std::allocator<void> >&&[m[K’
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/swerve_steer_plant.h:2[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:5[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:228:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:39:73:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:121:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return M::__s_getMD5Sum().c_str();
+[01;32m[K                            ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:237:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/swerve_steer_plant.cpp:39:73:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:138:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return M::__s_getDataType().c_str();
+[01;32m[K                              ^[m[K
+make[2]: *** [CMakeFiles/setpt_gen.dir/src/setpt_gen.cpp.o] Error 1
+make[1]: *** [CMakeFiles/setpt_gen.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/swerve_steer_plant.dir/src/swerve_steer_plant.cpp.o] Error 1
+make[1]: *** [CMakeFiles/swerve_steer_plant.dir/all] Error 2
+In file included from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/controller.h:11:0[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:7[m[K:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/./controller_globals.h:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix[m[K’ does not name a type
+ typedef Matrix<double, 6, 1> Vector6d;
+[01;32m[K         ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/./controller_globals.h:35:1:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6d[m[K’ does not name a type
+ Vector6d setpt;
+[01;32m[K ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/./controller_globals.h:36:1:[m[K [01;31m[Kerror: [m[K‘[01m[KVector6d[m[K’ does not name a type
+ Vector6d prev_setpt = {0};
+[01;32m[K ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/../include/controller.h:7[m[K,
+                 from [01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:7[m[K:
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const plant_msg&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:51:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     ROS_INFO("I heard x: %f %f", msg.x[0]);
+[01;32m[K     ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:64:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpt[m[K’ was not declared in this scope
+         setpt(i) = msg.setpoint[i];
+[01;32m[K                ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:87:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpt[m[K’ was not declared in this scope
+         max_del_x(i) = abs(setpt(i)-x(i));
+[01;32m[K                                   ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:107:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpt[m[K’ was not declared in this scope
+         vel_d(i) = setpt(i+3);
+[01;32m[K                             ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[0][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:46:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[1][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                              ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[2][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                            ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:74:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdes_steer[3][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                                          ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+     float pts[8] = {des_steer[0], des_steer[1], des_steer[2], des_steer[3], drive_speed_e1, drive_speed_e2, drive_speed_e3, drive_speed_e4};
+[01;32m[K                                                                                                                                           ^[m[K
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e2[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e3[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+[01m[K/home/vik/controller_ws/src/skrat-wmr-dev/fbl_control/src/controller.cpp:194:139:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kdrive_speed_e4[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ inside { } [-Wnarrowing]
+make[2]: *** [CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vik/controller_ws/devel/.private/lyap_control/setup.sh

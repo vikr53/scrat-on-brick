@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="moving_base" pkg="moving_base" type="moving_base">
+  <param name="p_gain" type="double" value="1.0" />
+  <param name="i_gain" type="double" value="0.0" />
+  <param name="d_gain" type="double" value="0.0" />
+  <param name="speed_cap" type="double" value="0.25" />
+</node>
+\endverbatim
+
